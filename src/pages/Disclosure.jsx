@@ -24,8 +24,10 @@ export default function Disclosure() {
                 <br/>
                 HTML / CSS / Javascript
                 <br/> 
-                Github Pages (Hosting)
+                Netlify (Hosting)
                 <br/>
+                <br/>
+                <a href="https://github.com/jbalsavich/solid-app-1">Github Repo</a>
                 
                 </p>
                 </div>
