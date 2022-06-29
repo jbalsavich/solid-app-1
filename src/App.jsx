@@ -9,6 +9,14 @@ import Disclosure from './pages/Disclosure';
 function App() {
   return (
     <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/profile" element={<Profile />}></Route>
+      <Route path="/profile/:id" element={<Profile/>}></Route>
+      <Route path="/history" element={<History/>}></Route>
+      <Route path="/history/:id" element={<History/>}></Route>
+      <Route path="/chess/" element={<Chess/>}></Route>
+      <Route path="/chess/:gameId" element={<Chess/>}></Route>
+      <Route path="/disclosure" element={<Disclosure/>}></Route>
 
       <Route path="/solid-app-1" element={<Home />}></Route>
       <Route path="/solid-app-1/profile" element={<Profile />}></Route>
