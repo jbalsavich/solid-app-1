@@ -1,5 +1,4 @@
 {
-  "homepage": "http://jbalsavich.github.io/solid-app-1",
   "name": "vite-template-solid",
   "version": "0.0.0",
   "description": "",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "server": "vite --host",
     "build": "vite build",
-    "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "serve": "vite preview"
   },
   "license": "MIT",
   "devDependencies": {
