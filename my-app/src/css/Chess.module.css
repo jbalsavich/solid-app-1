@@ -1,0 +1,21 @@
+.Chess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:first baseline;
+    width: 100%;
+    height: calc(100vh - 5rem - 2rem);
+    background-image: var(--profile-gradient);
+}
+.Chess p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+
+}
+.Chess a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
