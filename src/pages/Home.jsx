@@ -4,8 +4,10 @@ import styles from '../css/Home.module.css';
 
 export default function Home() {
   return (
+    <div class={styles.Home}>
+    <NavBar />
     <div class={styles.content}>
-        <NavBar />
+        
         <h1>Welcome to Chess Knight</h1>
         <p>
             Chess Knight is a game where you play against a computer opponent.
@@ -19,6 +21,7 @@ export default function Home() {
             You can also castle your king and rooks.
             You can also checkmate your opponent.
         </p>
+        </div>
         <Footer/>
     </div>
   );

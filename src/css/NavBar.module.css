@@ -23,6 +23,15 @@ img{
 img:hover{
     transform: scale(1.1);
 }
+.menu{
+    height: 3rem;
+    width: 3rem;
+    visibility: hidden;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -46,15 +55,20 @@ img:hover{
 }
 @media screen and (max-width: 600px){
     .navbar{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-    .navbar ul{
-        display: none;
-    }
+    
     .navbar li{
         margin: 0.5rem;
+        font-size: smaller;
+    }
+    .navbar ul{
+        flex-direction: row;
+    }
+    .spacer{
+        display: none;
     }
     .navbar a{
         color: var(--tertiary-color);
@@ -63,7 +77,5 @@ img:hover{
     .navbar a:hover{
         color: var(--secondary-color);
     }
-    i{
-        margin: 0.5rem;
-    }
+    
 }
